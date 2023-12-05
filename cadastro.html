@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="style_cadastro.css">
+</head>
+<body>
+        <main class="cadastro">
+            <h1> Sing in</h1>
+            <div class="box_user">
+                <label>Nome</label>
+                <input class="inputs" type="text" name="" id="nome">
+                <p class="alerta" id="alerta_nome"></p>
+            </div>
+            <div class="box_user">
+                <label for="email">Email</label>
+                <input  class="inputs" type="text" name="" id="email">
+                <p class="alerta" id="alerta_email"></p>
+            </div>
+            <div class="box_user">
+                <label for="CPF">CPF</label>
+                <input  type="text" name="" id="cpf">
+                <p id="alerta_cpf" class="alerta"></p>
+            </div>
+            <div class="box_user">
+                <label for="Data_Nascimento"> Data de Nascimento </label>
+                <input  class="inputs" type="date" name="begin" 
+                    placeholder="dd-mm-yyyy" value=""
+                    min="1930-01-01" max="2030-12-31"
+                    id="data">
+                 <p id="alerta_nascimento" class="alerta"></p>
+
+            </div> 
+            <div class="box_user">
+                <label for="senha">Senha</label>
+                <input  class="inputs" type="password" name="" id="senha">
+                <p id="alerta_senha" class="alerta"></p>
+            </div>
+            <input type="checkbox"  id="funciona" onclick="mostrarOcultarSenha ()">
+            <label for="funciona" id="apagar" >Exibir senha</label>
+
+            <div class="posicao_botao">
+                <button onclick="cadastrar()" id="cadastrar" class="qualquer botao posicao_botao ">Cadastrar</button>
+            </div>
+
+        </main>
+    <script src="cadastro.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Login</title>
+    <link rel="stylesheet" href="style_login.css">
+    <!--
+        Alunos:                                 Matricula:
+        Ellen Virginia ALbuquerque da Silva     01570521
+        Iago vitor Germano Albuquerque da Silva 01565468
+    -->
+</head>
+
+<body>
+    <main class="login">
+        <h1>Login</h1>
+        <div class="box_user">
+            <label for="nome">Email </label>
+            <input type="text" name="" id="email" >
+        </div>
+       <div class="box_user">
+        <label for="senha">Senha</label>
+        <input type="password" name="" id="senha" >
+       </div>
+       <input type="checkbox"  id="funciona" onclick="mostrarOcultarSenha ()">
+       <label for="funciona" id="apagar" >Exibir senha</label>
+       <div class="box_user_botao">
+        <button onclick="login()" id="login">Login</button>
+       </div>
+       
+    </main>
+    <script src="login.js"></script>
+</body>
+
+</html>

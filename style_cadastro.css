@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: "Century Gothic", Helvetica, sans-serif;   
+}
+
+body{
+    background: url(img/fundo-cadastro.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color:#3e1212 ;
+    
+}
+
+.cadastro{
+    background: rgba(211,211,211,0.5);
+    border-radius: 150px;
+    width: 400px;
+    padding: 40px;
+}
+
+.cadastro h1{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color:#3e1212 ;
+    text-align: center;
+}
+
+.cadastro .box_user {
+    position: relative;
+}
+
+.cadastro .box_user input {
+    width: 100%;
+    padding: 5px 0;
+    outline: none;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    color: #3e1212;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.cadastro .box_user label{
+    font-size: 14px;
+    color: #3e1212;
+}
+
+.cadastro .box_user p{
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #3e1212;
+}
+
+.cadastro .posicao_botao{
+    justify-content: center;
+    display: flex;
+    align-self: center;
+
+}
+
+button{
+    background-color:rgba(52, 18, 18, 0.9);
+    border: none;
+    color: white;
+    border-radius: 40px;
+    padding: 15px;
+}
